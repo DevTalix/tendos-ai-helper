@@ -44,7 +44,7 @@ if not st.session_state.history:
 # ---------------------------
 user_input = st.text_input("Ask your question:")
 
-if st.button("Ask AI"):
+if st.button("Ask Tendo"):
     if not user_input.strip():
         st.warning("Please type a question!")
     else:
