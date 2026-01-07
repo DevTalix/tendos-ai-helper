@@ -25,7 +25,7 @@ if st.sidebar.button("LinkedIn"):
     st.components.v1.html(f"<script>{js}</script>")
 
 if st.sidebar.button("X / Twitter"):
-    js = "window.open('https://x.com/your_username')"
+    js = "window.open('https://x.com/TendoTaliq')"
     st.components.v1.html(f"<script>{js}</script>")
 
 
